@@ -28,7 +28,7 @@ module Axiom
         def inspect; 'GATEWAY'; end
 
         MAP = [
-          Relation::Operation::Order,
+          Relation::Operation::Sorted,
           Relation::Operation::Offset,
           Relation::Operation::Limit,
           Algebra::Restriction

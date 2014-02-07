@@ -62,7 +62,7 @@ module Axiom
 
         TABLE = Operations.new(
           Axiom::Relation::Base              => :visit_base_relation,
-          Axiom::Relation::Operation::Order  => :visit_order_operation,
+          Axiom::Relation::Operation::Sorted  => :visit_order_operation,
           Axiom::Relation::Operation::Limit  => :visit_limit_operation,
           Axiom::Relation::Operation::Offset => :visit_offset_operation,
           Axiom::Algebra::Restriction        => :visit_restriction
