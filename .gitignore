@@ -4,3 +4,6 @@
 /.rbx
 /vendor
 /.bundle
+
+*.backup
+.idea
